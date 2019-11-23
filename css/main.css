@@ -1,0 +1,90 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *behavior: url(/scripts/boxsizing.htc);
+}
+body {
+  font-family: "Droid Serif", Georgia, serif;
+  font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Varela Round", Arial, sans-serif;
+  font-weight: 400;
+}
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+a:hover {
+  color: #2a84bf;
+}
+/* making the image fluid */
+img {
+  max-width: 100%;
+  height: auto;
+}
+.blog-header {
+  padding: 30px 15px;
+  background-color: #333;
+}
+.blog-name {
+  font-family: "Verala Round", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.blog-name a {
+  color: #fff;
+}
+.search-form input {
+  height: 36px;
+  background-color: #ccc;
+  color: #555;
+  border: 0;
+  padding: 0 10px;
+  border-radius: 30px;
+}
+.search-form input::-webkit-input-placeholder {
+  color: #555;
+}
+.search-form input::-moz-placeholder {
+  color: #555;
+}
+.search-form input:-moz-placeholder {
+  color: #555;
+}
+.search-form input:-ms-input-placeholder {
+  color: #555;
+}
+.search-form input:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background-color: #bbb;
+}
+.blog-menu {
+  margin: 40px 0;
+  text-align: center;
+}
+.blog-menu ul {
+  padding-left: 0;
+}
+.blog-menu li {
+  margin: 15px;
+  list-style-type: none;
+}
+.blog-menu a {
+  color: #7f8c8d;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Verala Round", Arial, sans-serif;
+}
+.blog-menu a:hover {
+  color: #3498db;
+}
+.blog-content {
+  padding: 15px;
+  margin-bottom: 30px;
+}
