@@ -146,3 +146,12 @@ img{max-width:100%;height:auto}
 .blog-pagination a{-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;color:#7f8c8d;padding:15px 30px;border:1px solid #bdc3c7}
 .blog-pagination a:hover{color:#fff;background-color:#7f8c8d;border:1px solid #7f8c8d}
 .blog-pagination .pageof{position:absolute;top:-30px}
+.blog-footer{background-color:#ecf0f1;padding:60px 0;font-family:"Varela Round",Arial,sans-serif;margin-top:60px}
+.blog-footer,.blog-footer a{color:#7f8c8d}
+.social-media{margin:0 0 30px}
+.social-media ul{margin:0;padding-left:0}
+.social-media li{margin:0 8px 10px;list-style:none}
+.social-media a,.social-media li{font-size:18px}
+.social-media a:hover{color:#333}
+.copyright{margin-top:0}
+.copyright,.social-media{text-align:center}

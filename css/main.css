@@ -169,3 +169,39 @@ img {
   position: absolute;
   top: -30px;
 }
+
+.blog-footer {
+  background-color: #ecf0f1;
+  padding: 60px 0;
+  font-family: "Varela Round", Arial, sans-serif;
+  margin-top: 60px;
+}
+.blog-footer,
+.blog-footer a {
+  color: #7f8c8d;
+}
+.social-media {
+  margin: 0 0 30px;
+}
+.social-media ul {
+  margin: 0;
+  padding-left: 0;
+}
+.social-media li {
+  margin: 0 8px 10px;
+  list-style: none;
+}
+.social-media li,
+.social-media a {
+  font-size: 18px;
+}
+.social-media a:hover {
+  color: #333;
+}
+.copyright {
+  margin-top: 0;
+}
+.social-media,
+.copyright {
+  text-align: center;
+}
